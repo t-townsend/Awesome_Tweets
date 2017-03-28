@@ -1,0 +1,63 @@
+body{
+  background-image: url("/images/chat_bg.jpg");
+}
+
+h1{
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+  text-align: center;
+  line-height: 600px;
+  font-size: 100px;
+
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  /* to read more about why top & bottom are necessary even though
+   * they may not appear to be, go to:
+   * http://stackoverflow.com/questions/24560958/how-does-margin-of-separate-element-affect-position-of-fixed-element
+   */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  font-family: 'Permanent Marker', cursive;
+}
+
+header > nav {
+  height: 100%;
+  background-color: white;
+  border-bottom: thin solid tan;
+  padding: 0 20px;
+
+  font-size: 1.4em;
+
+  display: flex;
+  align-items: center;
+}
+
+header > nav > a:not(:last-of-type) {
+  margin-right: 20px;
+}
+
+.nav-brand {
+  margin-left: auto;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.nav-logo {
+  height: 1.8em;
+}
+
+.nav-logo > img {
+  /* same height as the header text
+   * width will size to maintain aspect-ratio of the source
+   * image */
+  height: 100%;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
