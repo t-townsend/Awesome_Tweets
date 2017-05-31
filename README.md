@@ -9,8 +9,8 @@ logged in. It is a CRUD app, with edit and delete capabilities.
 ***
 **Technologies Used: Node.js, Express.js, HTML, CSS, Bootstrap, JavaScript, Postgres, SQL**
 
-####Home Page
+#### Home Page ####
 ![Alt text](/public/images/image1.png)
 ---
-####Dashboard
+#### Dashboard ####
 ![Alt text](/public/images/image2.png)
