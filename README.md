@@ -9,6 +9,8 @@ logged in. It is a CRUD app, with edit and delete capabilities.
 ***
 **Technologies Used: Node.js, Express.js, HTML, CSS, Bootstrap, JavaScript, Postgres, SQL**
 
+Deployed on heroku at https://awesometweets.herokuapp.com/
+
 #### Home Page ####
 
 ![Alt text](/public/images/image1.png)
